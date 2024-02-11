@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,74 +9,82 @@
     <link rel="icon" type="image/x-icon" href="../assets/galgo.png">
 
 </head>
+
 <body>
-  <header>
-    <nav>
-        <!-- ul>li*4>a -->
-        <ul>
-            <li><a href="../ok.html">Home</a></li>
-            <li><a href="#apariencia">Apariencia</a></li>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#compañia">Compañia</a></li>
-            <li><a href="./razas.html">Razas</a></li>
-            <li><a href="./porfolio.html">Porfolio</a></li>
-            <li><a href="./biografia.html">Biografía</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h4 class="content" id="title">Vida Galgo</h4> 
-
+    <header>
+        <nav>
+            <!-- ul>li*4>a -->
+            <ul>
+                <li><a href="../ok.html">Home</a></li>
+                <li><a href="./razas.html">Razas</a></li>
+                <li><a href="./porfolio.html">Porfolio</a></li>
+                <li><a href="./biografia.html">Biografía</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <section id="contacto" class="content">
-          <h2>Ponte en contacto y nosotros te llamaremos:</h2><br>
-          <form id="contactForm">
-              <label for="fname">Nombre:</label>
-              <input type="text" id="fname" name="fname" placeholder="Introduce nombre..." minlength="3" maxlenght="30" required /><br>
-              
-              <label for="lname">Apellidos:</label>
-              <input type="text" id="lname" name="lname" placeholder="Introduce apellidos..." minlength="3" maxlenght="30" required /><br>
-              
-              <label for="fname">Email:</label>
-              <input type="email" id="email" name="email" placeholder="Introduce email..." required /><br>
-              
-              <label for="tlf">Teléfono:</label>
-              <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Introduce teléfono..." required /><br>
+            <h2>Ponte en contacto y nosotros te llamaremos:</h2><br>
+            <form id="contactForm">
+                <label for="fname">Nombre:</label>
+                <input type="text" id="fname" name="fname" placeholder="Introduce nombre..." minlength="3"
+                    maxlenght="30" required /><br>
 
-              <label for="colaborar">¿Te gustaría colaborar?</label>
-              <div>
-                  <label for="donacion">
-                    <input type="radio" id="donacion" name="colaborar" value="donacion" />Quiero realizar una donación</label>
-                  <label for="voluntario">
-                    <input type="radio" id="voluntario" name="colaborar" value="voluntario" />Quiero ser voluntario</label>
-                  <label for="casa">
-                      <input type="radio" id="casa" name="colaborar" value="casa" />Quiero ser casa de acogida</label>
-                  <label for="adopcion">
-                    <input type="radio" id="adopcion" name="colaborar" value="adopcion" />Quiero adoptar un animal</label>
-              </div><br>
+                <label for="lname">Apellidos:</label>
+                <input type="text" id="lname" name="lname" placeholder="Introduce apellidos..." minlength="3"
+                    maxlenght="30" required /><br>
 
-              <label for="animal">¿Que animal quieres adoptar?:</label>
-              <select id="animal" name="animal">
-                  <option value=""></option>
-                  <option value="perro">Perro</option>
-                  <option value="gato">Gato</option>
-                  <option value="pajaro">Pájaro</option>
-              </select><br>
+                <label for="fname">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Introduce email..." required /><br>
 
-              <label for="comments">¿Observaciones?</label>
-              <textarea rows="2" cols="30" name="comments" wrap="hard" placeholder="Tus observaciones..."></textarea><br>
-              
-              <div>
-                  <label><input type="checkbox" id="accept" value="accept" name="accept" />
-                      Acepto los términos legales</label><br>
-              </div>
-              <input type="submit" value="Enviar" />
-          </form>
-      </section>
+                <label for="tlf">Teléfono:</label>
+                <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                    placeholder="Introduce teléfono..." required /><br>
+
+                <label for="colaborar">¿Cómo te gustaría colaborar?</label>
+                <div>
+                    <label for="donacion">
+                        <input type="radio" id="donacion" name="colaborar" value="donacion" />Realizar una
+                        donación</label>
+                    <label for="voluntario">
+                        <input type="radio" id="voluntario" name="colaborar" value="voluntario" />Siendo voluntario</label>
+                    <label for="casa">
+                        <input type="radio" id="casa" name="colaborar" value="casa" />Casa de acogida</label>
+                    <label for="adopcion">
+                        <input type="radio" id="adopcion" name="colaborar" value="adopcion" />Adoptar un
+                        animal</label>
+                </div><br>
+
+                <label for="animal">¿Que animal quieres adoptar?:</label>
+                <select id="animal" name="animal">
+                    <option value=""></option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                    <option value="pajaro">Pájaro</option>
+                </select><br>
+
+                <label for="comments">¿Observaciones?</label>
+                <textarea rows="2" cols="30" name="comments" wrap="hard"
+                    placeholder="Tus observaciones..."></textarea><br>
+
+                <div>
+                    <label><input type="checkbox" id="accept" value="accept" name="accept" />
+                        Acepto los términos legales</label><br>
+                </div>
+                <input type="submit" value="Enviar" />
+            </form>
+        </section>
     </main>
     <footer>
-        <h1>VIDA_GALGO ONG es el Responsable del tratamiento de los datos personales del Usuario y le informa que estos datos serán tratados de conformidad con lo dispuesto en el Reglamento (UE) 2016/679 de 27 de abril de 2016 (GDPR) relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos, por lo que se le facilita la siguiente información del tratamiento.</h1>
+        <section id="footer" class="footer">
+            <img src="../assets/rrss.png" alt="Redes Sociales">
+            <h3>VIDA_GALGO ONG es el Responsable del tratamiento de los datos personales del Usuario y le informa que estos
+            datos serán tratados de conformidad con lo dispuesto en el Reglamento (UE) 2016/679 de 27 de abril de 2016
+            (GDPR) relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos
+            personales y a la libre circulación de estos datos, por lo que se le facilita la siguiente información del
+            tratamiento.</h3>
+        </section>
     </footer>
 </body>
 </html>
-

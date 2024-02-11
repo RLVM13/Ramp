@@ -8,10 +8,14 @@
     <title>Vida Galgo</title>
     <link rel="stylesheet" href="ok.css" />
     <link rel="icon" type="image/x-icon" href="./assets/galgo.png" />
+    <link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
 </head>
-
+<style>
+    body {
+        font-family: 'Amarante';font-size: 22px;
+    }
+</style>
 <body>
-    <!-- <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>-->
     <header>
         <nav>
             <!-- ul>li*4>a -->
@@ -25,20 +29,28 @@
         </nav>
     </header>
     <main>
+        <!-- Boton hacia arriba -->
+        <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+            <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
         
         <section class="content">
-            <h4 class="indice" id="title">Vida Galgo</h4>
             <nav>
                 <ol>
                     <li><a href="#apariencia">Apariencia</a></li>
                     <li><a href="#historia">Historia</a></li>
-                    <li><a href="#compañia">Compañia</a></li>
+                    <li><a href="#compañia">Compañía</a></li>
                 </ol>
             </nav>
             <p>
-                El galgo (del latín gallĭcus canis, 'perro de la Galia'),<q><a href="https://dle.rae.es/galgo">8</a></q>o galgo español, es una raza canina
+                El galgo (del latín gallĭcus canis, 'perro de la Galia'),<q><a
+                        href="https://dle.rae.es/galgo">8</a></q>o galgo español, es una raza canina
                 autóctona de España perteneciente al grupo de los lebreles de pelo corto (grupo X.3 en la clasificación
-                de la FCI).<q><a href="https://www.fci.be/es/nomenclature/GALGO-ESPANOL-285.html">9</a></q> también existe una variedad de pelo duro.
+                de la FCI).<q><a href="https://www.fci.be/es/nomenclature/GALGO-ESPANOL-285.html">9</a></q> también
+                existe una variedad de pelo duro.
                 Se trata de una raza pura, es decir, que sus características se han logrado por selección a través de
                 los siglos y no por cruce de otras razas. Los galgos son grandes perros corredores que pueden alcanzar
                 70km/h.
@@ -164,12 +176,18 @@
                         href="https://elpais.com/diario/2000/01/09/sociedad/947372408_850215.html">11</a></q><q><a
                         href="https://www.consumer.es/medio-ambiente/mas-de-50-000-galgos-son-ahorcados-quemados-o-torturados-en-espana-al-acabar-cada-temporada-de-caza.html">12</a></q>De
                 los galgos rescatados, muchos son adoptados
-                fuera del país,<q><a href="https://www.20minutos.es/noticia/200901/0/Alicante/exporta/galgos/">13</a></q>aunque cada vez más son más apreciados dentro de España como animales de
-                compañía.<q><a href="https://elpais.com/diario/2005/12/14/sociedad/1134514804_850215.html">14</a></q>Numerosas organizaciones han empezado en la última década a concienciar sobre la situación y
+                fuera del país,<q><a
+                        href="https://www.20minutos.es/noticia/200901/0/Alicante/exporta/galgos/">13</a></q>aunque cada
+                vez más son más apreciados dentro de España como animales de
+                compañía.<q><a
+                        href="https://elpais.com/diario/2005/12/14/sociedad/1134514804_850215.html">14</a></q>Numerosas
+                organizaciones han empezado en la última década a concienciar sobre la situación y
                 a rescatar galgos para ofrecerlos en adopción. Es común que se los esterilice con la intención de
                 contener la población, ya que se estima que pueden existir unos 250.000 galgos en situación de
                 abandono[cita requerida]. Paralelamente, asociaciones a favor de los derechos de los animales han
-                pedido, sin éxito, que se prohíba la caza con galgos.<q><a href="https://www.publico.es/espana/eurocamara-pide-explicaciones-espana-crueldad.html">15</a></q></p>
+                pedido, sin éxito, que se prohíba la caza con galgos.<q><a
+                        href="https://www.publico.es/espana/eurocamara-pide-explicaciones-espana-crueldad.html">15</a></q>
+            </p>
             <p>Hay que ser positivos y activos para su cuidado. Es recomendable sacarlos tres veces al día, siendo como
                 mínimo dos , las que lo tenemos que hacer, llevándolos a un sitio en el que puedan correr libremente sin
                 correa.</p>
@@ -182,7 +200,20 @@
                 preocupación acerca de «la crueldad que se ejerce contra los galgos en España»</p>
         </section>
     </main>
-    <footer><img src="../Ramp/assets/rrss.png" alt="Redes Sociales"></footer>
+    <footer>
+        <section id="footer" class="footer">
+            <img src="./assets/rrss.png" alt="Redes Sociales">
+            <h3>VIDA_GALGO ONG es el Responsable del tratamiento de los datos personales del Usuario y le informa que
+                estos
+                datos serán tratados de conformidad con lo dispuesto en el Reglamento (UE) 2016/679 de 27 de abril de
+                2016
+                (GDPR) relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos
+                personales y a la libre circulación de estos datos, por lo que se le facilita la siguiente información
+                del
+                tratamiento.</h3>
+        </section>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
