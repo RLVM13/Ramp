@@ -1,13 +1,3 @@
-/* :root {
-    --lavender: #d3e4ff;
-    --dutch-white: #fff1c9;
-    --pale-dogwood: #fedac9;
-    --amber: #ffbe0b;
-    --orange: #fb5607;
-    --rose: #ff006e;
-    --blue-violet: #8338ec;
-    --azure: #3a86ff;
-  } */
 
 /* Colores por defecto */
 :root {
@@ -35,10 +25,6 @@
   /* Define el margen superior del área de ajuste de desplazamiento */
   transition: 0.5s ease;
 }
-
-/*body {
-  background-color: var(--lavender);
-}*/
 
 h1 {
   margin: 22px 5px;
@@ -137,73 +123,6 @@ nav>ol>li>a {
 figure>figcaption {
   font-size: small;
 }
-
-/*
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th,
-  td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid var(--azure);
-  }
-  
-  td:hover {
-    background-color: var(--dutch-white);
-  }
-  
-
-  #expSection > article > img {
-    border-radius: 20px;
-    display: block;
-  }
-  
-  #expSection {
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-  
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  #expSection > article:hover .overlay {
-    opacity: 1;
-  }
-  
-  #expSection > article {
-    position: relative;
-    margin: 20px 20px;
-  }
-
-
-  
-  .overlay {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    transition: 0.5s ease;
-    background-color: var(--blue-violet);
-    opacity: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 20px;
-  }  
-  
-  .text {
-    color: red;
-    font-size: 20px;
-  }*/
 
 /* Caracteristicas del Formulario */
 #contactForm {
