@@ -7,7 +7,7 @@
     <title>Vida Galgo - Contacto</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/x-icon" href="../assets/galgo.png">
-
+    <script src="../script.js" defer></script>
 </head>
 
 <body>
@@ -29,17 +29,17 @@
             <form id="contactForm">
                 <label for="fname">Nombre:</label>
                 <input type="text" id="fname" name="fname" placeholder="Introduce nombre..." minlength="3"
-                    maxlenght="30" required /><br>
+                    maxlenght="30" required validationMessage="Debe tener longitud de 3 a 30 caracteres"/><br>
 
                 <label for="lname">Apellidos:</label>
                 <input type="text" id="lname" name="lname" placeholder="Introduce apellidos..." minlength="3"
-                    maxlenght="30" required /><br>
+                    maxlenght="30" required validationMessage="Debe tener longitud de 3 a 30 caracteres"/><br>
 
                 <label for="fname">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Introduce email..." required /><br>
 
-                <label for="tlf">Teléfono:</label>
-                <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                <label for="tlf">Teléfono: (formato: xxx-xx-xx-xx)</label>
+                <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"
                     placeholder="Introduce teléfono..." required /><br>
 
                 <label for="colaborar">¿Cómo te gustaría colaborar?</label>
